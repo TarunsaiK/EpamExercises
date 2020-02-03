@@ -1,4 +1,4 @@
-class ParameterizedMethod
+class ParameterizedMethods
 {
 	private int width;
 	private int height;
@@ -18,7 +18,7 @@ class Box
 {
 	public static void main(String[] args)
 	{
-		ParameterizedMethod p=new ParameterizedMethod();
+		ParameterizedMethods p=new ParameterizedMethods();
 		p.initialize(10,10,10.5);
 		double vol=p.getVolume();
 		System.out.println(vol);	
